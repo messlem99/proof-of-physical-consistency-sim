@@ -1,7 +1,5 @@
 # proof-of-physical-consistency-sim
-A Python-based simulation framework for the physics-aware pre-consensus protocol, designed to mitigate False Data Injection (FDI) attacks in decentralized P2P energy trading markets.
-
-# A Physics-Aware Pre-Consensus Protocol for False Data Injection Mitigation in DAG-Based Peer-to-Peer Energy Trading
+Simulation Code for: "Proof of Physical Consistency (PoPC) Protocol for FDI Mitigation in DAG-Based Peer-to-Peer Energy Trading"
 
 ### Simulation Framework for the PoPC Protocol
 

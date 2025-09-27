@@ -93,14 +93,15 @@ Total Attacks Attempted: 41
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{messlem2025popc,
-  author    = {Messlem, Abdelkader and Messlem, Youcef},
-  title     = {A Physics-Aware Pre-Consensus Protocol for False Data Injection Mitigation in DAG-Based Peer-to-Peer Energy Trading},
-  journal   = {[TODO: Add Journal Name]},
-  year      = {[TODO: Add Year]},
-  volume    = {[TODO: Add Volume]},
-  pages     = {[TODO: Add Pages]},
-  doi       = {[TODO: Add DOI]}
+@software{messlem_2025_17212027,
+  author       = {Messlem, Abdelkader and Messlem, Youcef},
+  title        = {{Simulation Code for: "Proof of Physical Consistency (PoPC) Protocol for FDI Mitigation in DAG-Based Peer-to-Peer Energy Trading"}},
+  month        = sep,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.17212027},
+  url          = {https://doi.org/10.5281/zenodo.17212027}
 }
 ```
 

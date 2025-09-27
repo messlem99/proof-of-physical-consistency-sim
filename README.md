@@ -1,5 +1,5 @@
 # proof-of-physical-consistency-sim
-A Python-based simulation framework for the "Proof of Physical Consistency" (PoPC) pre-consensus protocol, designed to mitigate False Data Injection (FDI) attacks in decentralized P2P energy trading markets.
+A Python-based simulation framework for the physics-aware pre-consensus protocol, designed to mitigate False Data Injection (FDI) attacks in decentralized P2P energy trading markets.
 
 # A Physics-Aware Pre-Consensus Protocol for False Data Injection Mitigation in DAG-Based Peer-to-Peer Energy Trading
 
@@ -12,7 +12,9 @@ This repository contains the official simulation code for the research paper, "A
 
 ## Abstract
 
-Peer-to-peer (P2P) energy trading over distributed ledgers inherits a data-integrity risk from edge metering, as consensus verifies signatures and order, not physics. This work introduces **Proof of Physical Consistency (PoPC)**, a physics-aware, neighbor-attested pre-consensus for Directed Acyclic Graph (DAG) ledgers that binds transaction eligibility to one-hop electrical checks executed within the proposal window. This simulation evaluates the PoPC protocol on the IEEE 33-bus test feeder against a variety of False Data Injection (FDI) attack scenarios.
+In modern peer-to-peer (P2P) energy markets, transactions are recorded on digital ledgers. This system has a critical vulnerability: the ledger can't tell if the energy data it receives is physically real or faked by a hacker. It only checks the digital signature, not the laws of physics.
+To solve this, we introduce a new security method called Proof of Physical Consistency (PoPC). The idea is simple: before any energy transaction is accepted, the device's immediate neighbors on the power grid perform a quick "reality check." Using their own local measurements, they verify if the proposed transaction is physically possible. If it doesn't add up, they collectively veto it.
+We tested this approach in a detailed computer simulation of an energy grid under various false data attacks.
 
 ---
 

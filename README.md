@@ -1,7 +1,7 @@
 # proof-of-physical-consistency-sim
 Simulation Code for: "Proof of Physical Consistency (PoPC) Protocol for FDI Mitigation in DAG-Based Peer-to-Peer Energy Trading"
 
-### Simulation Framework for the PoPC Protocol
+### Simulation Framework
 
 ![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
